@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Snowberry.IO/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Snowberry.IO.Common": "2.1.0"
+        },
+        "compile": {
+          "lib/net8.0/Snowberry.IO.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Snowberry.IO.dll": {}
+        }
+      },
+      "Snowberry.IO.Common/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Snowberry.IO.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Snowberry.IO.Common.dll": {}
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "YamlDotNet/16.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Snowberry.IO/2.1.0": {
+      "sha512": "QoFM07o/hMt7uDXZeoeeB8mhzIpPux1f75kawRbUYU+QlcewBRUm6PqkgHj/+t/mbn7CGDhwlBxMVHSsq1tkcw==",
+      "type": "package",
+      "path": "snowberry.io/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Snowberry.IO.dll",
+        "lib/net7.0/Snowberry.IO.dll",
+        "lib/net8.0/Snowberry.IO.dll",
+        "lib/net9.0/Snowberry.IO.dll",
+        "lib/netstandard2.0/Snowberry.IO.dll",
+        "lib/netstandard2.1/Snowberry.IO.dll",
+        "snowberry.io.2.1.0.nupkg.sha512",
+        "snowberry.io.nuspec"
+      ]
+    },
+    "Snowberry.IO.Common/2.1.0": {
+      "sha512": "OQ5MtzdGF6CWzjNfPEGxepUo+EJ1IQm9UOdxr1qIax38eOvlM5RMzJVOKU5N9/7vO/iA/G94SMjAky9xX2v3Wg==",
+      "type": "package",
+      "path": "snowberry.io.common/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Snowberry.IO.Common.dll",
+        "lib/net7.0/Snowberry.IO.Common.dll",
+        "lib/net8.0/Snowberry.IO.Common.dll",
+        "lib/net9.0/Snowberry.IO.Common.dll",
+        "lib/netstandard2.0/Snowberry.IO.Common.dll",
+        "lib/netstandard2.1/Snowberry.IO.Common.dll",
+        "snowberry.io.common.2.1.0.nupkg.sha512",
+        "snowberry.io.common.nuspec"
+      ]
+    },
+    "xunit.abstractions/2.0.3": {
+      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
+      "type": "package",
+      "path": "xunit.abstractions/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/xunit.abstractions.dll",
+        "lib/net35/xunit.abstractions.xml",
+        "lib/netstandard1.0/xunit.abstractions.dll",
+        "lib/netstandard1.0/xunit.abstractions.xml",
+        "lib/netstandard2.0/xunit.abstractions.dll",
+        "lib/netstandard2.0/xunit.abstractions.xml",
+        "xunit.abstractions.2.0.3.nupkg.sha512",
+        "xunit.abstractions.nuspec"
+      ]
+    },
+    "YamlDotNet/16.3.0": {
+      "sha512": "SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
+      "type": "package",
+      "path": "yamldotnet/16.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "images/yamldotnet.png",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/net8.0/YamlDotNet.dll",
+        "lib/net8.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.16.3.0.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Snowberry.IO >= 2.1.0",
+      "YamlDotNet >= 16.3.0",
+      "xunit.abstractions >= 2.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\TB Desktop\\Visual Studio Projects\\BFFNTtoFNT\\BFFNTtoFNT\\BFFNTtoFNT.csproj",
+      "projectName": "BFFNTtoFNT",
+      "projectPath": "D:\\TB Desktop\\Visual Studio Projects\\BFFNTtoFNT\\BFFNTtoFNT\\BFFNTtoFNT.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\TB Desktop\\Visual Studio Projects\\BFFNTtoFNT\\BFFNTtoFNT\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Snowberry.IO": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[16.3.0, )"
+          },
+          "xunit.abstractions": {
+            "target": "Package",
+            "version": "[2.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

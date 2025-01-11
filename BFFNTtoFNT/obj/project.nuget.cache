@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "slVxnZG+yxw=",
+  "success": true,
+  "projectFilePath": "D:\\TB Desktop\\Visual Studio Projects\\BFFNTtoFNT\\BFFNTtoFNT\\BFFNTtoFNT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\snowberry.io\\2.1.0\\snowberry.io.2.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\snowberry.io.common\\2.1.0\\snowberry.io.common.2.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\yamldotnet\\16.3.0\\yamldotnet.16.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Snowberry.IO/2.1.0": {
+        "dependencies": {
+          "Snowberry.IO.Common": "2.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Snowberry.IO.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "Snowberry.IO.Common/2.1.0": {
+        "runtime": {
+          "lib/net8.0/Snowberry.IO.Common.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "YamlDotNet/16.3.0": {
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Snowberry.IO/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QoFM07o/hMt7uDXZeoeeB8mhzIpPux1f75kawRbUYU+QlcewBRUm6PqkgHj/+t/mbn7CGDhwlBxMVHSsq1tkcw==",
+      "path": "snowberry.io/2.1.0",
+      "hashPath": "snowberry.io.2.1.0.nupkg.sha512"
+    },
+    "Snowberry.IO.Common/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OQ5MtzdGF6CWzjNfPEGxepUo+EJ1IQm9UOdxr1qIax38eOvlM5RMzJVOKU5N9/7vO/iA/G94SMjAky9xX2v3Wg==",
+      "path": "snowberry.io.common/2.1.0",
+      "hashPath": "snowberry.io.common.2.1.0.nupkg.sha512"
+    },
+    "xunit.abstractions/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
+      "path": "xunit.abstractions/2.0.3",
+      "hashPath": "xunit.abstractions.2.0.3.nupkg.sha512"
+    },
+    "YamlDotNet/16.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
+      "path": "yamldotnet/16.3.0",
+      "hashPath": "yamldotnet.16.3.0.nupkg.sha512"
+    }
+  }
+}
